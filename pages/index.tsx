@@ -1,7 +1,6 @@
 import Head from "next/head";
 
 import Header from "@components/Header";
-import Input from "@components/Input";
 import Table from "@components/Table";
 
 const Index = () => {
