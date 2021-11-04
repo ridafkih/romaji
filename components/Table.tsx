@@ -110,7 +110,6 @@ const Table = () => {
     const localStorageShowRomaji = JSON.parse(
       window.localStorage.getItem("showRomaji")
     );
-    console.log(localStorageShowRomaji);
     setShowRomaji(localStorageShowRomaji);
   }, []);
 
