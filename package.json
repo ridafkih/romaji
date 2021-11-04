@@ -7,6 +7,9 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@koozaki/romaji-conv": "^2.0.14",
+    "@types/npm": "^7.19.0",
+    "kana-romaji": "^0.1.7",
     "next": "^12.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
@@ -18,6 +21,6 @@
     "@types/react-dom": "^17.0.1",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^2.2.19",
-    "typescript": "4.0"
+    "typescript": "4.3.2"
   }
 }
