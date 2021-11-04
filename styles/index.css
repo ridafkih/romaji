@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+html,
+body,
+#__next {
+  @apply h-full;
+}
+
+body {
+  @apply bg-gray-900;
+}
+
+.off-screen {
+  position: fixed;
+  top: -9999px;
+  left: -9999px;
+}
