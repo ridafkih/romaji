@@ -1,15 +1,28 @@
-import Link from "next/link";
-import Layout from "@components/Layout";
+import Head from "next/head";
 
-const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
-    </p>
-  </Layout>
-);
+import Header from "@components/Header";
+import Input from "@components/Input";
+import Table from "@components/Table";
 
-export default IndexPage;
+const Index = () => {
+  return (
+    <>
+      <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
+      <div className="flex flex-col h-full">
+        <Header />
+        <div className="flex-grow grid place-items-center">
+          <Table />
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Index;
